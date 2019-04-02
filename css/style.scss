@@ -1,0 +1,77 @@
+$font-color : #ffffff;
+
+.jumbotron {
+    background: url('../assets/images/jumbo2.jpg') no-repeat;
+    padding: 6em 0px 2em 0px;
+
+    h1,
+    p {
+        color: $font-color;
+
+    }
+}
+
+
+#chartdiv {
+    height: 550px;
+}
+
+i {
+    font-size: 10em;
+    text-align: center;
+}
+
+#web {
+    width: 10em;
+    height: 10em;
+
+}
+
+#bookcover {
+    height: 10em;
+}
+
+#language {
+    text-align: center;
+}
+
+#myskills {
+    h5 {
+        padding: 0.25em;
+    }
+}
+
+#achievements {
+    li {
+        padding: 0.25em;
+    }
+}
+
+#myworks {
+    align-items:  center;
+h5{
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+}
+}
+#myworkdata{
+    align-items:  center;
+    text-align: center;
+}
+
+@media only screen and (min-width: 990px) {
+    section {
+        height: 120vh;
+    }
+}
+
+#myskillssection,
+#educationalsection,
+#achievementssection,
+#contactsection {
+    padding: 5em 0em 0em 0em;
+
+    h1 {
+        padding: 0em 0em 0.5em 0em;
+    }
+}
